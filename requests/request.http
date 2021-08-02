@@ -1,0 +1,10 @@
+GET http://localhost:9200/emails/_search?pretty
+content-type: application/json
+
+{
+    "_source": [
+        "subject",
+        "from",
+        "date"
+    ]
+}
