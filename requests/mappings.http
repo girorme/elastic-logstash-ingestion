@@ -1,1 +1,1 @@
-GET http://localhost:9200/emails/_mapping
+GET http://localhost:9200/gmail_inbox/_mapping

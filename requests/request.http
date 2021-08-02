@@ -1,4 +1,4 @@
-GET http://localhost:9200/emails/_search?pretty
+GET http://localhost:9200/gmail_inbox/_search?pretty
 content-type: application/json
 
 {
